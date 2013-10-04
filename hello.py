@@ -1,9 +1,15 @@
 from werkzeug.utils import redirect
-from flask.ext.sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 import os
 
 __author__ = 'Radostin'
 from flask import Flask, url_for
+
+
+app = Flask(__name__)
+
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['DATABASE_URL']
+db = SQLAlchemy(app)
 
 
 class User(db.Model):
@@ -18,14 +24,13 @@ class User(db.Model):
     def __repr__(self):
         return '<Name %r>' % self.name
 
-app = Flask(__name__)
-
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['DATABASE_URL']
-db = SQLAlchemy(app)
 
 user = User('test', 'test@test.com')
 db.session.add(user)
 db.session.commit()
+
+
+
 
 @app.route("/")
 def hello():
