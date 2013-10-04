@@ -2,10 +2,9 @@ __author__ = 'Radostin'
 import praw
 import operator
 
-r = praw.Reddit(user_agent='TestRComments1.0')
+r = praw.Reddit(user_agent='TestRComments1.1')
 
 subreddit = r.get_subreddit('programming')
-
 
 submissions = subreddit.get_hot(limit=3)
 
