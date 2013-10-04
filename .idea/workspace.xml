@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="963b6e46-ed77-449b-bfa0-0038e223a2b2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello.py" afterPath="$PROJECT_DIR$/hello.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RedditComments.iws" />
@@ -35,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="hello.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+            <state line="28" column="0" selection-start="653" selection-end="653" vertical-scroll-proportion="0.694382" vertical-offset="167" max-vertical-offset="680">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -46,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="requirements.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="73" selection-end="73" vertical-scroll-proportion="0.14468086" vertical-offset="0" max-vertical-offset="470">
+            <state line="4" column="17" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -76,8 +76,8 @@
         <option value="$PROJECT_DIR$/CommentsTest.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/requirments.txt" />
-        <option value="$PROJECT_DIR$/hello.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/hello.py" />
       </list>
     </option>
   </component>
@@ -446,7 +446,11 @@
       <created>1380891614491</created>
       <updated>1380891614491</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="aa&#10;">
+      <created>1380891725778</created>
+      <updated>1380891725778</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -481,7 +485,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21940394" sideWeight="0.6785226" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5225464" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32147744" sideWeight="0.5009512" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32147744" sideWeight="0.5015853" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34610122" sideWeight="0.49904883" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -600,19 +604,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state line="4" column="17" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="73" selection-end="73" vertical-scroll-proportion="0.14468086" vertical-offset="0" max-vertical-offset="470">
-          <folding />
+        <state line="28" column="0" selection-start="653" selection-end="653" vertical-scroll-proportion="0.694382" vertical-offset="167" max-vertical-offset="714">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
