@@ -25,9 +25,9 @@ class User(db.Model):
         return '<Name %r>' % self.name
 
 
-user = User('test', 'test@test.com')
-db.session.add(user)
-db.session.commit()
+#user = User('test', 'test@test.com')
+#db.session.add(user)
+#db.session.commit()
 
 
 
