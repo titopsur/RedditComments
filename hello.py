@@ -1,3 +1,4 @@
+import random
 from werkzeug.utils import redirect
 from flask_sqlalchemy import SQLAlchemy
 import os
@@ -25,15 +26,12 @@ class User(db.Model):
         return '<Name %r>' % self.name
 
 
-#user = User('test', 'test@test.com')
-#db.session.add(user)
-#db.session.commit()
-
-
-
-
 @app.route("/")
 def hello():
+    user = User('test' + str(random.random()), 'test@test.com')
+    db.session.add(user)
+    db.session.commit()
+
     #return redirect(url_for('static', filename='test.html'))
     return User.query.all()
 
