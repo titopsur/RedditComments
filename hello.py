@@ -29,7 +29,8 @@ db.session.commit()
 
 @app.route("/")
 def hello():
-    return redirect(url_for('static', filename='test.html'))
+    #return redirect(url_for('static', filename='test.html'))
+    return User.query.all()
 
 if __name__ == "__main__":
     app.run()
