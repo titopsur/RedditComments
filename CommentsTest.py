@@ -2,7 +2,7 @@ __author__ = 'Radostin'
 import praw
 import operator
 
-r = praw.Reddit(user_agent='TestRComments1.1')
+r = praw.Reddit(user_agent='TestRComments1.2')
 
 subreddit = r.get_subreddit('programming')
 
