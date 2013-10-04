@@ -9,8 +9,8 @@ from flask import Flask, url_for
 
 app = Flask(__name__)
 
-#app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['DATABASE_URL']
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://localhost:5432/testcomm'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['DATABASE_URL']
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://localhost:5432/testcomm'
 db = SQLAlchemy(app)
 
 
