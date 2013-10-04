@@ -28,6 +28,7 @@ class User(db.Model):
 
 @app.route("/")
 def hello():
+    db.create_all()
     user = User('test' + str(random.random()), 'test@test.com')
     db.session.add(user)
     db.session.commit()
