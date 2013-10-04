@@ -33,7 +33,7 @@ def hello():
     db.session.commit()
 
     #return redirect(url_for('static', filename='test.html'))
-    return User.query.all()
+    return str(User.query.all())
 
 if __name__ == "__main__":
     app.run()
